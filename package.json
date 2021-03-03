@@ -2,7 +2,7 @@
   "name": "marvel-v1",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://jdoyle5254.github.io/marvel-react-app/",
+  "homepage": "https://jdoyle5254.github.io/marvel-react-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
