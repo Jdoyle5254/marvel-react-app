@@ -1,7 +1,7 @@
 import Welcome from "./components/Welcome"
 import MovieList from "./components/MovieList"
 import { movieData } from "./data/movieData"
-import WatchedList from "./components/WatchedList"
+// import WatchedList from "./components/WatchedList"
 import React, { useState, useEffect } from 'react'
 
 import './App.css';
@@ -15,7 +15,7 @@ function App() {
 
     */
    const foundMovie = movieData.find(movie => movie.id === id)
-  //  console.log('foundplayer', foundPlayer)
+   console.log('foundmovie', foundMovie)
    
   const updatedWatched = watched.slice()
    updatedWatched.push(foundMovie)
@@ -30,7 +30,8 @@ function App() {
        <MovieList movies={movieData}
        addWatched={addWatched} />
 
-       <WatchedList watched={watched} />
+      
+       {/* <WatchedList watched={watched} /> */}
 
     </div>
   );
